@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Origins of RPG</title>
+    <script type="text/javascript" src = "final_project_RPG_Information.js"  defer></script>
+    <link href ="final_project_game_draft.css" type = "text/css" rel = "stylesheet">
+</head>
+
+<body>
+    <h2 style="text-align: center;" class = "webster">
+        Merriam Webster defines Role Playing Game as:
+    </h2>
+
+    <div class = "definitionBox">
+        <p class = "defintion">
+            an adventure game in which players advance a character through
+            a series of battles or quests to gain experience, strength,
+            and skill as part of a progressive narrative arc usually depicting
+            the <em>hero's journey</em>.
+        </p>
+    </div>
+
+    <div class = "exposition">
+        <p>
+            Role Playing Games started with <strong>Dungeons & Dragons</strong> in 1974. D&D would be considered a TTRPG (table tob role playing game). The popularity and
+            format of D&D set the foundation for Role Playing Games as a genre.
+
+            <br>
+            <br>
+
+            Featuring:
+            <ul class = "ddList">
+                <li>D-20 decision making (you need to roll a 20 to continue)</li>
+                <li>Story progression over the course of a whole campaign</li>
+                <li>Gradual improvement of players as they progress and gain experience</li>
+                <li>Immersion through the story telling of the GM, and involvement of the players</li>
+            </ul>
+        </p>
+
+        <p id="diceRoll">
+            0  
+        </p>
+
+        <img class = "logo" src="https://logos-world.net/wp-content/uploads/2021/12/DnD-Logo.png" alt="Modern D&D logo">
+    </div>
+
+    <div class = "continueBox">
+        <button onclick = "rollDie()" class="continue">
+            Roll D-20
+        </button>
+
+        <button class = "continue" onclick ="unlock(this)">
+            Continue...?
+        </button>
+
+    </div>
+</body>

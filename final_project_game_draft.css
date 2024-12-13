@@ -1,0 +1,159 @@
+
+body{
+    background-image: url("https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/242826116/original/43419803ee9ecad5c8ce7c0ae409796dafec3bb1/make-4-pixel-art-tiles-for-your-videogame.png");  
+}
+
+#boundingBox{
+    background-image: url("https://www.shutterstock.com/image-illustration/2d-brick-gray-wall-texture-600nw-2127747113.jpg");
+    border: solid;
+    border-color: black;
+    width: 1600px;
+    height: 500px;
+    border-width: 20px;
+    border-style: groove;
+}
+
+.box{
+    background-color: rgb(45, 45, 45);
+    padding: 20px;
+    border: solid;
+    border-color: black;
+    border-style: groove;
+}
+
+.statBox{
+    margin-top: 20px;
+    border: solid;
+    border-style: groove;
+    border-color: black;
+    width: 1600px;
+    background:linear-gradient(rgb(255, 98, 62), rgb(255, 169, 169));
+    border-width: 20px;
+}
+
+.box h1{
+    font-family: monospace;
+    color:aliceblue;
+}
+
+p.definition{
+    text-align: center;
+}
+
+h2.webster{
+    font-family: monospace;
+    color:aliceblue;
+}
+
+.defintion{
+    font-size: 50px;
+    font-family:'Courier New', Courier, monospace;
+    color:aliceblue;
+    padding: 20px;
+}
+
+.definitionBox{
+    background:linear-gradient(rgb(14, 85, 147), rgb(0, 113, 188));
+    border-radius: 30px;
+    border: solid;
+    border-style:groove;
+    border-color: rgb(0, 0, 0);
+    border-width: 10px;
+}
+
+div.statBox h4{
+    margin: 40px;
+    font-size:larger;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div.statBox h6{
+    margin: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.exposition{
+    background:linear-gradient(rgb(14, 85, 147), rgb(0, 113, 188));
+    border-radius: 30px;
+    border: solid;
+    border-style:groove;
+    border-color: rgb(0, 0, 0);
+    border-width: 10px;
+    z-index: 1;
+}
+
+.exposition p{
+    font-size: 50px;
+    font-family:'Courier New', Courier, monospace;
+    color:aliceblue;
+    padding: 20px;
+}
+
+.continueBox{
+    border: solid;
+    border-style:groove;
+    border-color: rgb(0, 0, 0);
+    border-width: 10px;
+    float:right;
+    margin:90px;
+    border-radius: 20px;
+}
+
+.continueBox button{
+    background: grey;
+    padding-right: 40px;
+    font-size:30px;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    border-radius: 20px;
+    font-family:monospace;
+}
+
+.ddList li{
+    font-size: 30px;
+    font-family: monospace;
+    color:aliceblue
+}
+
+.logo{
+    float: right;
+    max-width: 20%;
+}
+
+div.title h1{
+    font-family: monospace;
+    color: antiquewhite;
+    padding: 10px;
+    background:linear-gradient(rgb(14, 85, 147), rgb(0, 113, 188));
+}
+
+div.gameListIntro{
+    background:linear-gradient(rgb(14, 85, 147), rgb(0, 113, 188));
+    padding: 10px;
+}
+
+div.gameListIntro p{
+    font-family: monospace;
+    color:aliceblue;
+    font-size: larger;
+}
+
+ul.gameList li{
+    font-size: larger;
+    font-family: monospace;
+    color: aliceblue;
+}
+
+img.finalFanasty{
+    float: right;
+    border: solid;
+    border-radius: 20px;
+}
+
+img.finalFanastyNew{
+    border: solid;
+    border-radius: 20px;
+    float: right;
+    width:40%;
+    height: auto;
+}
